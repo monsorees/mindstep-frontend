@@ -1,4 +1,4 @@
-name: Mindstep Deploy
+name: CI
 
 on:
   push:
