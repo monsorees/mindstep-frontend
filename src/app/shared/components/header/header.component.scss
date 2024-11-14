@@ -1,0 +1,52 @@
+@import '../../../_config-css/variables.scss';
+@import '../../../_config-css/rem-calc.scss';
+header {
+    width: 100vw;
+    height: rem-calc(200);
+    border-bottom-left-radius: 60% 90%;
+    border-bottom-right-radius: 60% 90%;
+    background: rgb(70, 70, 124);
+    background: linear-gradient(180deg, rgba(70, 70, 124, 1) 0%, rgba(208, 208, 255, 1) 100%);
+}
+
+.content-header {
+    margin: 0 auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 25%;
+        height: 25%;
+    }
+    p {
+        color: var(--first-secondary-color);
+    }
+}
+
+.content-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.seach-notification {
+    display: flex;
+    gap: 8px;
+}
+
+.icon {
+    width: 40%;
+    height: 40%;
+}
+
+.icon-back {
+    .icon {
+        width: 60%;
+        height: 60%;
+    }
+}
