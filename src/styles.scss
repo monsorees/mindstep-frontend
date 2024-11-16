@@ -1,2 +1,5 @@
 @import '../src/app/_config-css/reset.scss';
 @import '../src/app/_config-css/variables.scss';
+body {
+  background-color: var(--first-primary-color);
+}
